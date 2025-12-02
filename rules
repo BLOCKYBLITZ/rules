@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Server Rules</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #1e1e1e;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    h1 { color: #4aa3ff; }
+    .category {
+      background: #2a2a2a;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 12px;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    }
+    .blue { border-left: 6px solid #4aa3ff; }
+    .purple { border-left: 6px solid #b37dff; }
+    .red { border-left: 6px solid #ff6b6b; }
+    .green { border-left: 6px solid #6bff92; }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      padding: 6px 0;
+      font-size: 1.05rem;
+    }
+    .emoji { margin-right: 8px; }
+  </style>
+</head>
+<body>
+  <nav style="background:#111;padding:15px;text-align:center;position:sticky;top:0;z-index:10;">
+    <a href="#general" style="color:#4aa3ff;margin:0 15px;text-decoration:none;font-size:1.1rem;">General</a>
+    <a href="#textchat" style="color:#b37dff;margin:0 15px;text-decoration:none;font-size:1.1rem;">Text Chat</a>
+    <a href="#content" style="color:#ff6b6b;margin:0 15px;text-decoration:none;font-size:1.1rem;">Content</a>
+    <a href="#final" style="color:#6bff92;margin:0 15px;text-decoration:none;font-size:1.1rem;">Final Rule</a>
+  </nav>
+
+  <h1>✨ Server Rules ✨</h1>
+
+  <div id="general" class="category blue">
+    <h2>🔵 General Rules</h2>
+    <ul>
+      <li>🚫 No blank nicknames.</li>
+      <li>🔞 No inappropriate or sexually explicit nicknames.</li>
+      <li>⚠️ No offensive nicknames.</li>
+      <li>🔤 No unreadable or unusual Unicode in nicknames.</li>
+      <li>🖼️ No blank profile pictures.</li>
+      <li>🔞 No inappropriate, offensive, or sexually explicit profile pictures.</li>
+      <li>👶🚫 No members under 18.</li>
+      <li>🛠️ Moderators may change nicknames at any time.</li>
+      <li>⚖️ Moderators may use discretion when enforcing rules.</li>
+      <li>🕳️ Do not exploit loopholes — report them instead.</li>
+      <li>✉️🚫 No DMing other members without permission.</li>
+      <li>📬 Rules also apply to DMs.</li>
+      <li>🤖🚫 Do not invite unofficial bots.</li>
+      <li>🐞🚫 No bugs, exploits, glitches, hacks, etc.</li>
+    </ul>
+  </div>
+
+  <div id="textchat" class="category purple">
+    <h2>🟣 Text Chat Rules</h2>
+    <ul>
+      <li>❌ Do not question moderators.</li>
+      <li>🚫 No unnecessary mentions toward moderators.</li>
+      <li>🎭 Do not ask for roles or mod positions.</li>
+      <li>🆘 Only mention moderators for support.</li>
+      <li>🛎️ Use the designated support channel for help.</li>
+      <li>📢🚫 No @everyone or @here without permission.</li>
+      <li>🔔🚫 No mention spam.</li>
+    </ul>
+  </div>
+
+  <div id="content" class="category red">
+    <h2>🔴 Content Restrictions</h2>
+    <ul>
+      <li>🔞🚫 No sexually explicit content.</li>
+      <li>📵 No pornographic or NSFW content.</li>
+      <li>⚖️ No illegal content.</li>
+      <li>🏴‍☠️ No piracy.</li>
+      <li>🔧🚫 No modding, homebrew, or hacking discussions.</li>
+      <li>🔐 No sharing personal information.</li>
+      <li>🤬🚫 No personal attacks or harassment.</li>
+      <li>🔥🚫 No witch hunting.</li>
+      <li>🚫 No discrimination of any kind.</li>
+      <li>🗣️🚫 No excessive cursing or offensive language.</li>
+      <li>✝️🚫 No religious discussions.</li>
+      <li>🏛️🚫 No political discussions.</li>
+      <li>💬🚫 No sexual discussions.</li>
+      <li>💕🚫 No flirting or dating.</li>
+    </ul>
+  </div>
+
+  <div id="final" class="category green">
+    <h2>🟢 Final Rule</h2>
+    <ul>
+      <li>📜 Follow Discord's Terms of Service at all times.</li>
+    </ul>
+  </div>
+
+</body>
+</html>
