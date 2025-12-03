@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discord Staff Rules</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #0d0f14;
+            color: #e6e6e6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #1a1d24;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        nav {
+            background: #111318;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #9bb3ff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .rule-box {
+            background: #1a1d24;
+            border-left: 5px solid #5865f2;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+        h2 {
+            color: #8aa7ff;
+        }
+    </style>
+</head>
+<body>
+    <header>🌟 Discord Staff Rules</header>
+
+    <nav>
+        <a href="#conduct">Professional Conduct</a>
+        <a href="#communication">Communication</a>
+        <a href="#moderation">Moderation</a>
+        <a href="#activity">Activity</a>
+        <a href="#conflict">Conflict</a>
+        <a href="#privacy">Privacy</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="rule-box" id="conduct">
+            <h2>🟦 1. Professional Conduct</h2>
+            <p>🔹 Always act maturely and respectfully.<br>
+            🔹 Treat all members equally — no favoritism.<br>
+            🔹 Never abuse your permissions.</p>
+        </div>
+
+        <div class="rule-box" id="communication">
+            <h2>🟪 2. Staff Communication</h2>
+            <p>💬 Keep discussions in staff-only channels.<br>
+            🛑 Do not leak private staff information.<br>
+            📢 Report issues promptly.</p>
+        </div>
+
+        <div class="rule-box" id="moderation">
+            <h2>🟥 3. Moderation Standards</h2>
+            <p>⚖️ Enforce rules fairly and consistently.<br>
+            😤 Do not moderate while emotional.<br>
+            📝 Always provide clear reasons for punishments.</p>
+        </div>
+
+        <div class="rule-box" id="activity">
+            <h2>🟩 4. Activity Requirements</h2>
+            <p>⏰ Stay reasonably active.<br>
+            📩 Inform management if inactive.<br>
+            ❌ Unannounced inactivity may lead to removal.</p>
+        </div>
+
+        <div class="rule-box" id="conflict">
+            <h2>🟧 5. Conflict Handling</h2>
+            <p>🧊 Keep situations calm.<br>
+            ↩️ Pass issues to other staff if needed.<br>
+            🚫 Never use powers to win arguments.</p>
+        </div>
+
+        <div class="rule-box" id="privacy">
+            <h2>🔵 9. Privacy & Safety</h2>
+            <p>🔒 Do not share user DMs without permission.<br>
+            🛡️ Protect user privacy.<br>
+            🚷 Do not encourage or participate in harassment.</p>
+        </div>
+
+    </div>
+</body>
+</html>
